@@ -1698,7 +1698,7 @@ void combine(unsigned char *output, const unsigned char *video, const unsigned c
 	for (y = vbottom; y < yres; y++)
 	{
 		int pos1 = y * xres * 4;
-		int vpos1 = y * xres * 3
+		int vpos1 = y * xres * 3;
 		int x;
 		for (x = 0; x < xres; x++)
 		{
